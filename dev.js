@@ -1,5 +1,5 @@
 console.log('hello from Dev weather app');
-// API Key 9947c552798f0669f535f6df9992ab63
+// free 9947c552798f0669f535f6df9992ab63
 
 
 //*************************************
