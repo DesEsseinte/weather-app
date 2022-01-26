@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>weather app</title>
+  <link rel = 'stylesheet' href = 'style.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src = 'dev.js' defer></script>
+</head>
+<body>
+  <main>
+    <div id='top'>
+      <div class='displayTempBox'>
+        <div id ='currentCity'></div>
+        <div class = 'medium' id ='weather'></div>
+        <div class = 'large'id ='temp'></div>
+        <div class = 'small' id ='feelsLabel'></div>
+        <div class = 'small' id = 'feelsLike'></div>
+        <div class = 'medium' id ='high'></div>
+        <div class = 'medium'id ='low'></div>
+        <div id = 'searchBox'>
+            <input placeholder="search by city">
+            <button id ='searchBtn'><i class="fa fa-search"></i></button>
+          </div>
+      </div>
+      <div id = 'units'>
+        <div id ='degreeContainer'>
+            <div id ='C' class = 'degrees'>ºC</div>
+            <div id ='F' class ='degrees'>ºF</div>
+          </div>
+        <div id ='slideBar'>
+            <button id = 'slider'></button>
+          </div>
+      </div>
+    </div>
+    <div id = 'bottom'>
+      <!-- DOM manipulate here -->
+    </div>
+  </main>
+</body>
+</html>

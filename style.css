@@ -1,0 +1,149 @@
+body{
+/*background-color: #111620;*/
+/*background-color: darkblue;*/
+background-color: #232123;
+/*
+if royal_palace : background-color:#232123;
+if  mountain: background-color:darkblue;
+if footsteps_in_Paris : background-color: #111620;
+if las_matas : background-color: #111620      & displayTempBox background-color=#0000008f;
+*/
+
+}
+
+main{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  height:600px;
+  /*background-image:url(las_matas.png);*/
+  /*background-image: url(footsteps_in_Paris.png);*/
+  background-image: url(royal_palace.png);
+  /*background-image:url(mountain.png);*/
+  /*background-image:url(cordoba.png);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#top{
+  display:flex;
+  justify-content: space-between;
+}
+.displayTempBox{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+    color:whitesmoke;
+    font-size: 10px;
+    font-weight: bolder;
+    background-color:#0000008f;
+}
+    .displayTempBoxShow{
+      height: 330px;
+      width:225px;
+    }
+
+
+  #currentCity{
+  font-size: 30px;
+  }
+  .large{
+    font-size: 40px;
+  }
+  .medium{
+    font-size: 20px;
+  }
+  .small{
+    font-size: 15px;
+  }
+
+  #searchBox{
+    display:flex;
+    border-bottom:2px solid whitesmoke;
+    margin-bottom: 10%;
+  }
+    input{
+      background-color: #ffffff00;
+      border:none;
+      color:whitesmoke;
+    }
+    input:focus{
+      outline:none;
+      color:whitesmoke;
+    }
+    button{
+      background-color: #00000000;
+      border:none;
+      color:skyblue;
+    }
+
+/**************************************
+ºF or ºC slide bar
+*************************/
+
+#units {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  height:150px;
+  width: 75px;
+  background-color:#0000008f;
+
+}
+#degreeContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:3%;
+}
+  .degrees{
+    font-size: 20px;
+    margin:30%;
+
+  }
+
+
+  #slideBar{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70px;
+    width:20px;
+    border: 1px solid whitesmoke;
+    border-radius:20px;
+  }
+  #slider{
+    height:20px;
+    margin:25%;
+    border-radius:50px;
+    background-color:#f88484;
+  }
+
+
+/**********************************************/
+/*Bottom container will display 7 day forecast */
+/**********************************************/
+
+#bottom{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.displayForecastBox{
+  border:2px solid black;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  height: 150px;
+  width:150px;
+  color:whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+}
