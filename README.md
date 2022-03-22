@@ -1,3 +1,6 @@
-A simple weather app done as a project for The Odin Project
+# Weather App:
 
-makes use of OpenWeather interface.
+A simple weather app made while learning basics of asynchronous programming and use of APIs.
+
+### API:
+openweathermap.org 
